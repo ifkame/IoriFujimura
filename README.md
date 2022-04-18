@@ -8,3 +8,7 @@
 
 * ゼミの時間に作成したロボトレースの計測を行うストップウォッチです。
 
+
+
+https://user-images.githubusercontent.com/93113173/163833587-3b4cedcb-50de-4eea-9a10-d07377147503.mp4
+
