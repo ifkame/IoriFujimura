@@ -6,7 +6,7 @@
 
 * ゼミの時間に作成したロボトレースの計測を行うストップウォッチです。
 
-https://user-images.githubusercontent.com/93113173/163945799-cde74909-a413-409e-b255-36dd58d491b9.mp4
+https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-abf3-5626e1b6e049.mp4
 
 ### QRCode_RT(チーム制作・3年・後期)
 
