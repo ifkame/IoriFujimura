@@ -2,6 +2,8 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/S2YPlCf6Skm6G75rnTZXmA/badge)](https://hackmd.io/S2YPlCf6Skm6G75rnTZXmA)
 
+* 自分の実績をまとめているGithubです。
+
 ### RobotTraceStopwatch(組み込みゼミ・3年・後期)
 
 * ゼミの時間に作成したロボトレースの計測を行うストップウォッチです。
