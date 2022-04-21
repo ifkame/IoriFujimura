@@ -1,8 +1,6 @@
 # 名刺代わりのGitHub(IoriFujimura)
 
 [![hackmd-github-sync-badge](https://hackmd.io/S2YPlCf6Skm6G75rnTZXmA/badge)](https://hackmd.io/S2YPlCf6Skm6G75rnTZXmA)
-Here is a simplefootnote[^1]. With some additional text after it.
-[^1]: My reference.
 
 * 自分の実績をまとめているGithubです。
 
@@ -34,4 +32,6 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 
 https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-9eab-7b5bd4e8115f.mp4
 
+<br><br>## 脚注
+---
 [^1]:「Fusion 360 マスターズガイド ベーシック編 ～小原照記・藤村祐爾著～」
