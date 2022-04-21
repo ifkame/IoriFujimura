@@ -35,7 +35,4 @@ https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-
 <br><br>
 
 ## 脚注
-
----
-
 [^1]:「Fusion 360 マスターズガイド ベーシック編 ～小原照記・藤村祐爾著～」
