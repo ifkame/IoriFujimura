@@ -34,7 +34,11 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 </details>
 </details>
 
+<details>
+<summary>
+ 
 ### QRCode_RT(チーム制作・3年・後期)
+</summary>
 
 * QRコードを読み取って翻訳するアプリです。
 * 文字の読み取りは画像認識(OCR)で行うことが可能になりました。ただ、OCRには文章が斜めや歪んでいるとき、文字が欠損しているときに読み取ることができないという問題がありました。
@@ -45,6 +49,7 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
   * メニュー表に添えることでお客様が「QRCode_RT」を使用することで、どのようなモノか把握することができる
 
 https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-9eab-7b5bd4e8115f.mp4
+</details>
 
 <br><br>
 
