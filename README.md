@@ -6,7 +6,8 @@
 
 <details>
 <summary>
- ### RobotTraceStopwatch(組み込みゼミ・3年・後期)
+ 
+### RobotTraceStopwatch(組み込みゼミ・3年・後期)
 </summary>
 
 * ゼミの時間に作成したロボトレースの計測を行うストップウォッチです。
