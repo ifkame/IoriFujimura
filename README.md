@@ -17,8 +17,12 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 * 学んだことを活かしてロボトレースの本体の修正を行っています。
 <br>※本体は前任者がFreeCadでモデリングを行っていたので、Fusion360に合った形に変更しています。
 
+<details>
+<summary>3Dモデリングの例 </summary>
+
 ![micromous-body](https://user-images.githubusercontent.com/93113173/164351714-6b62d7c4-60fe-43bc-b9cc-2c84f67e487e.png)
 <img src="https://user-images.githubusercontent.com/93113173/164351725-d3e2818b-257a-49f9-b981-6e8f7fe5d66b.png" width="50%">
+</details>
 
 ### QRCode_RT(チーム制作・3年・後期)
 
