@@ -7,6 +7,23 @@
 <details>
 <summary>
  
+### QRCode_RT(チーム制作・3年・後期)※ここをクリックすると展開
+</summary>
+
+* QRコードを読み取って翻訳するアプリです。
+* 文字の読み取りは画像認識(OCR)で行うことが可能になりました。ただ、OCRには文章が斜めや歪んでいるとき、文字が欠損しているときに読み取ることができないという問題がありました。
+* そこで、問題に対応できるQRコードに情報をデータとして受け渡すことで解決しようと試みた制作です。<br>
+
+使用例）：
+  * 看板や広告にQRコードを添えることで外国の方でも「QRCode_RT」を使用することで書かれた内容を理解できる
+  * メニュー表に添えることでお客様が「QRCode_RT」を使用することで、どのようなモノか把握することができる
+
+https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-9eab-7b5bd4e8115f.mp4
+</details>
+
+<details>
+<summary>
+ 
 ### RobotTraceStopwatch(組み込みゼミ・3年・後期)※ここをクリックすると展開
 </summary>
 
@@ -29,24 +46,6 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 ![micromous-body](https://user-images.githubusercontent.com/93113173/164351714-6b62d7c4-60fe-43bc-b9cc-2c84f67e487e.png)
 <img src="https://user-images.githubusercontent.com/93113173/164351725-d3e2818b-257a-49f9-b981-6e8f7fe5d66b.png" width="50%">
 </details>
-
-<details>
-<summary>
- 
-### QRCode_RT(チーム制作・3年・後期)※ここをクリックすると展開
-</summary>
-
-* QRコードを読み取って翻訳するアプリです。
-* 文字の読み取りは画像認識(OCR)で行うことが可能になりました。ただ、OCRには文章が斜めや歪んでいるとき、文字が欠損しているときに読み取ることができないという問題がありました。
-* そこで、問題に対応できるQRコードに情報をデータとして受け渡すことで解決しようと試みた制作です。<br>
-
-使用例）：
-  * 看板や広告にQRコードを添えることで外国の方でも「QRCode_RT」を使用することで書かれた内容を理解できる
-  * メニュー表に添えることでお客様が「QRCode_RT」を使用することで、どのようなモノか把握することができる
-
-https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-9eab-7b5bd4e8115f.mp4
-</details>
-
 
 ## 脚注
 [^1]:「Fusion 360 マスターズガイド ベーシック編 ～小原照記・藤村祐爾著～」
