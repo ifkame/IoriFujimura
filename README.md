@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 <details>
 <summary>
  
-### Fusion360_modeling(組み込みゼミ・4年・前期)
+### Fusion360_modeling(組み込みゼミ・4年・前期)※ここをクリックすると展開
 </summary>
 
 * Fusion360の機能を用いた3Dモデルの作成を行っています。
@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 <details>
 <summary>
  
-### QRCode_RT(チーム制作・3年・後期)
+### QRCode_RT(チーム制作・3年・後期)※ここをクリックすると展開
 </summary>
 
 * QRコードを読み取って翻訳するアプリです。
