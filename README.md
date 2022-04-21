@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-
 * ゼミの時間に作成した自動ドアの模型です。
 * コロナ禍で接触が懸念されます。そこで非接触の仕組みをドアに取り付けることができたら、需要があると考えて制作しました。
 
- <img src="https://user-images.githubusercontent.com/93113173/164448326-59eb5854-b39d-4f03-9227-58390237daeb.jpg" width="50%">
+ <img src="https://user-images.githubusercontent.com/93113173/164448326-59eb5854-b39d-4f03-9227-58390237daeb.jpg" width="35%">
 </details>
 
 
