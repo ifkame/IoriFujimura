@@ -15,7 +15,11 @@
 https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-abf3-5626e1b6e049.mp4
 </details>
 
+<details>
+<summary>
+ 
 ### Fusion360_modeling(組み込みゼミ・4年・前期)
+</summary>
 
 * Fusion360の機能を用いた3Dモデルの作成を行っています。
 * 教科書[^1]で基本的なコマンドや機能について学び、基礎的な知識を身に着けています。
@@ -27,6 +31,7 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 
 ![micromous-body](https://user-images.githubusercontent.com/93113173/164351714-6b62d7c4-60fe-43bc-b9cc-2c84f67e487e.png)
 <img src="https://user-images.githubusercontent.com/93113173/164351725-d3e2818b-257a-49f9-b981-6e8f7fe5d66b.png" width="50%">
+</details>
 </details>
 
 ### QRCode_RT(チーム制作・3年・後期)
