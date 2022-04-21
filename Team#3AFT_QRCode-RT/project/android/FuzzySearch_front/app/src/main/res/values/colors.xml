@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dimgray">#696969</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="active">#FFFFFFFF</color>      <!--  アクティブ背景  -->
+    <color name="no_active">#C8C5C5</color>     <!--  非アクティブ背景  -->
+<!--    <color name="btn_act">#4169E1</color>       &lt;!&ndash;  アクティブButtonカラー  &ndash;&gt;-->
+<!--    <color name="btn_no_act">#5916244E</color>  &lt;!&ndash;  非アクティブButtonカラー  &ndash;&gt;-->
+<!--    <color name="btn_border">#3F51B5</color>    &lt;!&ndash;  枠線Buttonカラー  &ndash;&gt;-->
+    <color name="btn_act">@color/base_500</color>       <!--  アクティブButtonカラー  -->
+    <color name="btn_no_act">@color/base_200</color>  <!--  非アクティブButtonカラー  -->
+    <color name="btn_border">@color/base_700</color>    <!--  枠線Buttonカラー  -->
+    <color name="transparent">#00000000</color> <!--  透明色  -->
+    <color name="base_200">#FFC7CEC8</color>    <!--  基本色_薄い  -->
+    <color name="base_500">#FF33E08A</color>    <!--  基本色_普通  -->
+    <color name="base_700">#FF008B02</color>    <!--  基本色_基本  -->
+    <color name="base_900">#FF05570C</color>    <!--  基本色_濃い  -->
+</resources>

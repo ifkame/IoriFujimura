@@ -1,0 +1,2 @@
+rootProject.name = "FuzzySearch_front"
+include ':app'
