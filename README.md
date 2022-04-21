@@ -4,11 +4,15 @@
 
 * 自分の実績をまとめているGithubです。
 
-### RobotTraceStopwatch(組み込みゼミ・3年・後期)
+<details>
+<summary>
+ ### RobotTraceStopwatch(組み込みゼミ・3年・後期)
+</summary>
 
 * ゼミの時間に作成したロボトレースの計測を行うストップウォッチです。
 
 https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-abf3-5626e1b6e049.mp4
+</details>
 
 ### Fusion360_modeling(組み込みゼミ・4年・前期)
 
