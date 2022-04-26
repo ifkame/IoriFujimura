@@ -21,6 +21,20 @@
 https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-9eab-7b5bd4e8115f.mp4
 </details>
 
+
+<details>
+<summary>
+ 
+### AutoDoor(組み込みゼミ・3年・前期)※ここをクリックすると展開
+</summary>
+
+* ゼミの時間に作成した自動ドアの模型です。
+* コロナ禍で接触が懸念されます。そこで非接触の仕組みをドアに取り付けることができたら、需要があると考えて制作しました。
+
+ <img src="https://user-images.githubusercontent.com/93113173/164448326-59eb5854-b39d-4f03-9227-58390237daeb.jpg" width="35%">
+</details>
+
+
 <details>
 <summary>
  
@@ -31,6 +45,7 @@ https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-
 
 https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-abf3-5626e1b6e049.mp4
 </details>
+
 
 <details>
 <summary>
@@ -46,6 +61,7 @@ https://user-images.githubusercontent.com/93113173/163949635-5f38c89b-0748-44c6-
 ![micromous-body](https://user-images.githubusercontent.com/93113173/164351714-6b62d7c4-60fe-43bc-b9cc-2c84f67e487e.png)
 <img src="https://user-images.githubusercontent.com/93113173/164351725-d3e2818b-257a-49f9-b981-6e8f7fe5d66b.png" width="50%">
 </details>
+
 
 ## 脚注
 [^1]:「Fusion 360 マスターズガイド ベーシック編 ～小原照記・藤村祐爾著～」
