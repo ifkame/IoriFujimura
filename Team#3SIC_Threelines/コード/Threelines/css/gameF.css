@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+
+}
+
+main {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    height: 625px;
+    width: 625px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: solid 4px black;
+    background-color: rgb(202, 102, 19);
+}
+
+td {
+    border: solid 2px black;
+    height: 58px;
+    width: 58px;
+    cursor: default;
+    font-size: 30px;
+}
+
+.player_container {
+    height: 200px;
+    width: 300px;
+}
+.player_container > p {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.player_container > div {
+    padding: 20px 0 0;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.bgc_red {
+    background-color: rgb(255, 30, 30);
+}
+.bgc_blue {
+    background-color: rgb(30, 30, 255);
+}
+.bgc_green {
+    background-color: rgb(30, 128, 30);
+}
+.bgc_yellow {
+    background-color: rgb(255, 255, 30);
+}
+
+.leftdown,
+.rightdown {
+    margin-top: 225px;
+}
+
+.leftup {
+    border-radius: 0 0 150px 0;
+}
+.leftdown {
+    border-radius: 0 150px 0 0;
+}
+.rightup {
+    border-radius: 0 0 0 150px;
+}
+.rightdown {
+    border-radius: 150px 0 0 0;
+}
+
+.player1 {
+    color: rgb(255, 20, 20);
+}
+.player2 {
+    color: rgb(30, 30, 255);
+}
+.player3 {
+    color: rgb(0, 128, 0);
+}
+.player4 {
+    color: rgb(255, 255, 30);;
+}
+
+.turn {
+    text-align: left;
+    position: absolute;
+    top: 275px;
+    left: 100px;
+    font-size: 22px;
+}
+
+.bot {
+    position: absolute;
+    margin: 0 0 0 0;
+}
