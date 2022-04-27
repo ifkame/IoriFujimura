@@ -1,0 +1,107 @@
+# MySQLの設定内容
+
+# データベースの作成
+create database sys1;
+
+# postテーブルの作成
+CREATE TABLE sys1.post(
+	postId INT,
+	position VARCHAR(10),
+	PRIMARY KEY (postId)
+);
+
+# statusテーブルの作成
+CREATE TABLE sys1.status(
+	stId INT,
+	status VARCHAR(10),
+	PRIMARY KEY (stId)
+);
+
+# userテーブルの作成
+# 「管理者権限を持つか判断するFlag」はご自由に
+CREATE TABLE sys1.user(
+	userId INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(30) NULL,
+	password VARCHAR(30) NULL,
+	mail VARCHAR(50) NULL,
+	postId INT NULL,
+	stId INT NOT NULL DEFAULT '0',
+	content VARCHAR(200) DEFAULT NULL,
+	checkDate DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PRIMARY KEY (userId),
+	FOREIGN KEY(postId) REFERENCES post(postId),
+	FOREIGN KEY(stId) REFERENCES status(stId)
+);
+
+# postデータ追加
+INSERT INTO post
+  (postId, position)
+VALUES
+	(1, '代表取締役社長'),
+	(2, '専務取締役'),
+	(3, '常務取締役'),
+	(4, '本部長（事業部長）'),
+	(5, '部長'),
+	(6, '次長'),
+	(7, '課長'),
+	(8, '係長'),
+	(9, '主任'),
+	(10, '一般社員'),
+	(11, 'その他');
+
+# postデータ追加
+INSERT INTO status
+  (stId, status)
+VALUES
+	(0, '未確認'),
+	(1, '無事'),
+	(2, '軽傷'),
+	(3, '重傷');
+
+# userデータ追加
+INSERT INTO user
+  (name, password, mail, postId)
+VALUES
+	('佐藤', 'sato', 'sato@ecc.xxx.ac.jp' , 1), 
+	('鈴木', 'suzu', 'suzu@ecc.xxx.ac.jp' , 2), 
+	('高橋', 'taka', 'taka@ecc.xxx.ac.jp' , 3), 
+	('田中', 'tana', 'tana@ecc.xxx.ac.jp' , 4), 
+	('伊藤', 'ito', 'ito@ecc.xxx.ac.jp' , 5), 
+	('渡辺', 'wata', 'wata@ecc.xxx.ac.jp' , 6), 
+	('山本', 'yama', 'yama@ecc.xxx.ac.jp' , 7), 
+	('中村', 'naka', 'naka@ecc.xxx.ac.jp' , 8), 
+	('小林', 'koba', 'koba@ecc.xxx.ac.jp' , 9), 
+	('加藤', 'kato', 'kato@ecc.xxx.ac.jp' , 10), 
+	('吉田', 'yosi', 'yosi@ecc.xxx.ac.jp' , 11), 
+	('山田', 'yama', 'yama@ecc.xxx.ac.jp' , 8), 
+	('佐々木', 'sasa', 'sasa@ecc.xxx.ac.jp' , 9), 
+	('山口', 'yama', 'yama@ecc.xxx.ac.jp' , 9), 
+	('松本', 'matu', 'matu@ecc.xxx.ac.jp' , 10), 
+	('井上', 'inou', 'inou@ecc.xxx.ac.jp' , 10), 
+	('木村', 'kimu', 'kimu@ecc.xxx.ac.jp' , 10), 
+	('林', 'haya', 'haya@ecc.xxx.ac.jp' , 10), 
+	('斎藤', 'sait', 'sait@ecc.xxx.ac.jp' , 11), 
+	('清水', 'simi', 'simi@ecc.xxx.ac.jp' , 11);
+
+# 補足
+# 全件表示の SELECT文
+SELECT name, mail, p.position, s.status, content, checkDate
+FROM user u, post p, status s
+WHERE u.postId = p.postId
+AND u.stId = s.stId;
+
+# ログインユーザーの更新用の SELECT文
+# ${s_name} = $s_name: セッションユーザー
+# ${s_pwd} = $_pwd: セッションパスワード
+SELECT name, password, mail, 
+postId, stId, content
+FROM user
+WHERE name = '${s_name}'
+AND password = '${s_pwd}';
+
+# ログインユーザーの更新 UPDATE文
+# PHPの"mysqli_stmt_bind_param"で「？と変数をバインド」
+UPDATE user 
+SET stId=?, content=? 
+WHERE name=?
+AND password=?;
