@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+<<<<<<< HEAD
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/errorMsgs.php</file>
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/whisperDetail.php</file>
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/userInfo.php</file>
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/loginAuth.php</file>
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/search.php</file>
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/userUpd.php</file>
+            <file>file:/C:/Users/2190494/Documents/Dolphin/project/web/WisperSystem/PhpProject/userWhisperInfo.php</file>
+=======
+            <file>file:/C:/Users/2190231/Documents/Dolphin/project/web/WisperSystem/PhpProject/userAdd.php</file>
+            <file>file:/C:/Users/2190231/Documents/Dolphin/project/web/WisperSystem/PhpProject/search.php</file>
+            <file>file:/C:/Users/2190231/Documents/Dolphin/project/web/WisperSystem/PhpProject/userWhisperInfo.php</file>
+            <file>file:/C:/Users/2190231/Documents/Dolphin/project/web/WisperSystem/PhpProject/whisperAdd.php</file>
+            <file>file:/C:/Users/2190231/Documents/Dolphin/project/web/WisperSystem/PhpProject/timelineInfo.php</file>
+>>>>>>> 7e6436b5f8f88415244f50461613983cd7760064
+        </group>
+    </open-files>
+</project-private>

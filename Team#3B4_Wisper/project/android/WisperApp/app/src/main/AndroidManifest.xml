@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wisperapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WisperApp">
+        <activity android:name=".M_00_01" />    //オーバーフローメニュー
+        <activity android:name=".S_01_01" />    //HOMEタイムライン画面
+        <activity android:name=".S_02_01" />    //サーチ画面
+        <activity android:name=".S_03_01" />    //WHISPER画面
+        <activity android:name=".S_05_01" />    //選択ユーザ詳細画面
+        <activity android:name=".S_06_01" />    //ログインユーザ情報編集画面
+        <activity android:name=".S_07_01" />    //フォロー一覧画面
+        <activity android:name=".S_08_01" />    //フォロワ一覧画面
+        <activity android:name=".S_00_02" />    //ユーザ登録画面
+        <activity android:name=".S_00_01">      //ログイン画面
+            <intent-filter>
+                <!-- android.intent.action.MAIN をつけるとこの Activity がアプリのエントリポイントになる -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- android.intent.category.LAUNCHER をつけるとホームボタンから起動できる画面として認識される -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

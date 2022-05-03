@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WhisperApp</string>
+    <string name="Timeline">タイムライン</string>
+    <string name="Search">検索</string>
+    <string name="Whisper">ウィスパー</string>
+    <string name="My_profile">Myプロフィール</string>
+    <string name="Profile_editing">プロフィール編集</string>
+    <string name="Whisper_hinto_input">今どうしてる？</string>
+    <string name="Cancel">キャンセル</string>
+    <string name="Post">投稿</string>
+
+    <string-array name="myIconSpinnerItems">
+        <item>デフォルト(ドロイド君)</item>
+        <item>目覚まし時計</item>
+        <item>ひよこ</item>
+        <item>料理道具</item>
+        <item>かえる</item>
+        <item>朝顔</item>
+        <item>ふくろう</item>
+        <item>パンダ</item>
+        <item>たぬき</item>
+        <item>靴</item>
+        <item>熱帯魚</item>
+    </string-array>
+</resources>

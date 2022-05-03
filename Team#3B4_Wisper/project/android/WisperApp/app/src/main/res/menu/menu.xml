@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:resauto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".M_00_01">
+
+    <item android:id="@+id/action_timeline"
+        android:title="@string/Timeline" />
+    <item android:id="@+id/action_search"
+        android:title="@string/Search" />
+    <item android:id="@+id/action_whisper"
+        android:title="@string/Whisper" />
+    <item android:id="@+id/action_my_pro"
+        android:title="@string/My_profile" />
+    <item android:id="@+id/action_pro_edit"
+        android:title="@string/Profile_editing" />
+</menu>

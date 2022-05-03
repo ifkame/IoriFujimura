@@ -1,0 +1,63 @@
+# データベースの作成
+CREATE DATABASE whisper_e;
+
+# 作成したデータベースを使用
+use whisper_e;
+
+# user(ユーザー情報)テーブル作成
+CREATE TABLE `whisper_e`.`user` (
+  `userId` VARCHAR(30) NOT NULL,
+  `userName` VARCHAR(20) NOT NULL,
+  `password` VARCHAR(64) NOT NULL,
+  `profile` VARCHAR(200) NULL,
+  `iconPath` VARCHAR(100) NULL,
+  PRIMARY KEY (`userId`)
+  );
+
+# whisper(投稿情報)テーブル作成
+CREATE TABLE `whisper_e`.`whisper` (
+  `whisperNo` BIGINT(20) NOT NULL AUTO_INCREMENT,
+  `userId` VARCHAR(30) NOT NULL,
+  `postDate` DATE NOT NULL,
+  `content` VARCHAR(256) NOT NULL,
+  `imagePath` VARCHAR(100) NULL,
+  PRIMARY KEY (`whisperNo`)
+);
+
+# follow(フォロー情報)テーブル作成
+CREATE TABLE `whisper_e`.`follow` (
+  `userId` VARCHAR(30) NOT NULL,
+  `followUserId` VARCHAR(30) NOT NULL,
+  PRIMARY KEY (`userId`, `followUserId`)
+  );
+
+# goodInfo(イイね情報)テーブル作成
+CREATE TABLE `whisper_e`.`goodinfo` (
+  `userId` VARCHAR(30) NOT NULL,
+  `whisperNo` BIGINT(20) NOT NULL,
+  PRIMARY KEY (`userId`, `whisperNo`)
+ );
+
+# whisperCntView(投稿数)ビュー作成
+CREATE VIEW `whisperCntView` AS
+SELECT userId, COUNT(*) "cnt" 
+FROM whisper
+GROUP BY userId;
+
+# followCntView(フォロー数)ビュー作成
+CREATE VIEW `followCntView` AS
+SELECT userId, COUNT(*) "cnt" 
+FROM follow 
+GROUP BY userId;
+
+# followerCntView(フォロワー数)ビュー作成
+CREATE VIEW `followerCntView` AS
+SELECT followUserId, COUNT(*) "cnt" 
+FROM follow
+GROUP BY followUserId;
+
+# goodCntView(イイね数)ビュー作成
+CREATE VIEW `goodCntView` AS
+SELECT whisperNo, COUNT(*) "cnt" 
+FROM goodinfo 
+GROUP BY whisperNo;

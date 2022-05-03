@@ -1,0 +1,80 @@
+# ユーザー情報情報追加
+INSERT INTO user
+(userId, userName, password, profile) 
+VALUES 
+('user1@xxx.ac.jp', 'Sato', 'user1', 'よろしくお願いします'), 
+('user2@xxx.ac.jp', 'Suzuki', 'user2', 'よろしくお願いします'), 
+('user3@xxx.ac.jp', 'Takahashi', 'user3', 'よろしくお願いします'), 
+('user4@xxx.ac.jp', 'Tanaka', 'user4', 'よろしくお願いします'), 
+('user5@xxx.ac.jp', 'Ito', 'user5', 'よろしくお願いします'), 
+('user6@xxx.ac.jp', 'Watanabe', 'user6', 'よろしくお願いします'), 
+('user7@xxx.ac.jp', 'Yamamoto', 'user7', 'よろしくお願いします'), 
+('user8@xxx.ac.jp', 'Nakamura', 'user8', 'よろしくお願いします'), 
+('user9@xxx.ac.jp', 'Kobayashi', 'user9', 'よろしくお願いします'), 
+('user10@xxx.ac.jp', 'Kato', 'user10', 'よろしくお願いします');
+
+# 投稿情報追加
+INSERT INTO whisper
+(userId, postDate, content, imagePath) 
+VALUES
+('user1@xxx.ac.jp',CURRENT_DATE,'Hello user1!',''), 
+('user2@xxx.ac.jp',CURRENT_DATE,'Hello user2!',''), 
+('user3@xxx.ac.jp',CURRENT_DATE,'Hello user3!',''), 
+('user4@xxx.ac.jp',CURRENT_DATE,'Hello user4!',''), 
+('user5@xxx.ac.jp',CURRENT_DATE,'Hello user5!',''), 
+('user6@xxx.ac.jp',CURRENT_DATE,'Hello user6!',''), 
+('user7@xxx.ac.jp',CURRENT_DATE,'Hello user7!',''), 
+('user8@xxx.ac.jp',CURRENT_DATE,'Hello user8!',''), 
+('user9@xxx.ac.jp',CURRENT_DATE,'Hello user9!',''), 
+('user10@xxx.ac.jp',CURRENT_DATE,'Hello user10!',''),
+('ecc123456@ecc.ac.jp',CURRENT_DATE,'Hello World!','');
+
+# フォロー情報追加
+INSERT INTO follow
+(userId,followUserId) 
+VALUES
+('user1@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user2@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user3@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user4@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user5@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user6@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user7@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user8@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user9@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('user10@xxx.ac.jp', 'ecc123456@ecc.ac.jp'),
+('ecc123456@ecc.ac.jp', 'user1@xxx.ac.jp'),
+('ecc123456@ecc.ac.jp', 'user2@xxx.ac.jp'),
+('ecc123456@ecc.ac.jp', 'user3@xxx.ac.jp'),
+('user1@xxx.ac.jp', 'user4@xxx.ac.jp'),
+('user2@xxx.ac.jp', 'user5@xxx.ac.jp'),
+('user3@xxx.ac.jp', 'user6@xxx.ac.jp'),
+('user10@xxx.ac.jp', 'user7@xxx.ac.jp'),
+('user9@xxx.ac.jp', 'user8@xxx.ac.jp'),
+('user8@xxx.ac.jp', 'user9@xxx.ac.jp'),
+('user7@xxx.ac.jp', 'user10@xxx.ac.jp');
+
+# イイね情報追加
+INSERT INTO goodInfo
+(userId, whisperNo) 
+VALUES 
+('ecc123456@ecc.ac.jp', 1),
+('ecc123456@ecc.ac.jp', 2),
+('ecc123456@ecc.ac.jp', 3),
+('ecc123456@ecc.ac.jp', 4),
+('ecc123456@ecc.ac.jp', 5),
+('ecc123456@ecc.ac.jp', 6),
+('ecc123456@ecc.ac.jp', 7),
+('ecc123456@ecc.ac.jp', 8),
+('ecc123456@ecc.ac.jp', 9),
+('ecc123456@ecc.ac.jp', 10),
+('user1@xxx.ac.jp', 11),
+('user2@xxx.ac.jp', 11),
+('user3@xxx.ac.jp', 11),
+('user4@xxx.ac.jp', 1),
+('user5@xxx.ac.jp', 2),
+('user6@xxx.ac.jp', 3),
+('user7@xxx.ac.jp', 10),
+('user8@xxx.ac.jp', 9),
+('user9@xxx.ac.jp', 8),
+('user10@xxx.ac.jp', 7);

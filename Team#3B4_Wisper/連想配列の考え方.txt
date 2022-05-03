@@ -1,0 +1,18 @@
+$userList = [];
+$count = 1;
+while (mysqli_stmt_fetch($stmt)) {
+	$userList[] = array(
+		["$userId{$count}" => "{$userId}" ,
+		 "$userName{$count}" => "{$userName}"]
+	);
+}
+
+
+
+$userList = array('$userId' => '{$userId}');
+$userList = array('$userId' => '{$userId}');
+print $userList['userId']; ☓ 値被って格納！
+
+$userList[] = array('$userId' => '{$userId}');
+$userList[] = array('$userId' => '{$userId}');
+print $userList[0]['userId'];　○
