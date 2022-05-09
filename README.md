@@ -3,6 +3,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/S2YPlCf6Skm6G75rnTZXmA/badge)](https://hackmd.io/S2YPlCf6Skm6G75rnTZXmA)
 
 * 自分の実績をまとめているGithubです。
+* 過去・新規の制作を順次追加する予定です。
 
 <details>
 <summary>
