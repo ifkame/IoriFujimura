@@ -101,18 +101,18 @@ https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-
 * 簡単なSNSアプリです。
 
 ## **確認画像**
-![Whisper_Login](https://user-images.githubusercontent.com/93113173/167469428-88031696-31fd-4414-898a-7ec4db0ff5b6.jpg)
-![Whisper_Signup](https://user-images.githubusercontent.com/93113173/167469442-86352127-dc98-439e-81d8-ce72db048c20.jpg)
-![Whisper_Top](https://user-images.githubusercontent.com/93113173/167469469-468211a2-2e9a-4509-9516-8321da7a9951.jpg)
-![Whisper_Serach_User](https://user-images.githubusercontent.com/93113173/167469510-ea31453e-5825-46a1-a2a1-d3a64cf32843.jpg)
-![Whisper_Serach_Postedtext](https://user-images.githubusercontent.com/93113173/167469517-d9262231-759d-4bed-8187-7ea2bfee71f1.jpg)
-![Whisper_Posttext](https://user-images.githubusercontent.com/93113173/167469549-30180a4c-8b81-48e0-94cf-abab2c229901.jpg)
-![Whisper_Profile_Top](https://user-images.githubusercontent.com/93113173/167469680-8852139b-0dd9-4735-b355-13f2a5fa5efa.jpg)
-![Whisper_Profile_Select](https://user-images.githubusercontent.com/93113173/167469668-f497b82b-84e1-440e-a266-48808300fd4c.jpg)
-![Whisper_Timeline_Postlist](https://user-images.githubusercontent.com/93113173/167469597-e71e3ad6-0d1e-4500-96c0-3078ad3f5a7f.jpg)
-![Whisper_Timeline_Goodlist](https://user-images.githubusercontent.com/93113173/167469604-24c2295e-2d67-49aa-85b4-9f5505fb1376.jpg)
-![Whisper_Follow](https://user-images.githubusercontent.com/93113173/167469694-97ca1b20-2ec9-45d3-bb82-0f1a2e68b4ee.jpg)
-![Whisper_Follower](https://user-images.githubusercontent.com/93113173/167469704-bb377339-f417-4854-ba09-b0d7080f96df.jpg)
+<img src="https://user-images.githubusercontent.com/93113173/167469428-88031696-31fd-4414-898a-7ec4db0ff5b6.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469442-86352127-dc98-439e-81d8-ce72db048c20.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469469-468211a2-2e9a-4509-9516-8321da7a9951.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469510-ea31453e-5825-46a1-a2a1-d3a64cf32843.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469517-d9262231-759d-4bed-8187-7ea2bfee71f1.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469549-30180a4c-8b81-48e0-94cf-abab2c229901.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469680-8852139b-0dd9-4735-b355-13f2a5fa5efa.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469668-f497b82b-84e1-440e-a266-48808300fd4c.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469597-e71e3ad6-0d1e-4500-96c0-3078ad3f5a7f.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469604-24c2295e-2d67-49aa-85b4-9f5505fb1376.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469694-97ca1b20-2ec9-45d3-bb82-0f1a2e68b4ee.jpg" width="25%">
+<img src="https://user-images.githubusercontent.com/93113173/167469704-bb377339-f417-4854-ba09-b0d7080f96df.jpg" width="25%">
 </details>
 
 
