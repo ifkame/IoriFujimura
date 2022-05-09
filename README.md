@@ -11,12 +11,13 @@
 </summary>
 
 * 分類
-  - Peer: ピア活動<br>※ピア活動とは後輩の授業にチューターの学生が参加して先生の手が足りない状況を改善するモノ
+  - Peer: ピア活動<br>※ピア活動とは後輩の授業にチューターの学生が参加して先生の手が足りない状況をサポートすること
   - Team: チーム制作
   - Zemi: 組込系ゼミ
 * 学年
   - #3: ３年次
   - #4: ４年次
+  - SIC: SIC<br>※SICとはECCで夏休み2週間かけて行うチーム制作のこと
 * 時期
   - B4: 前期（4~9月頃）
   - AFT: 後期（10~3月頃）
@@ -61,6 +62,15 @@
 * 学生の困っていることを解決する
 * 緊急時の安否確認サイトの作成の手助け
 * 完成品がないので今回作成しました。
+
+---
+
+## **確認画像**
+![シス開1_ログイン](https://user-images.githubusercontent.com/93113173/167468888-30a32d2c-a10b-4d48-86c8-a4d8061ab1a5.png)
+![シス開1_登録](https://user-images.githubusercontent.com/93113173/167468945-f3b46e3f-dd85-4ece-9933-e731c8d56232.png)
+![シス開1_登録確認](https://user-images.githubusercontent.com/93113173/167468961-e8f129eb-8f54-45e9-a91d-56417720f209.png)
+![シス開1_入力](https://user-images.githubusercontent.com/93113173/167468996-907177c6-2c7d-4527-a1dd-f0f21e63a321.png)
+![シス開1_掲示板](https://user-images.githubusercontent.com/93113173/167469008-b17daa63-4fbc-4dca-bdbb-79c4437feeed.png)
 </details>
 
 
@@ -89,7 +99,20 @@ https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-
 </summary>
 * チーム制作で開発内容が決まっていたモノです。
 * 簡単なSNSアプリです。
-    
+
+## **確認画像**
+![Whisper_Login](https://user-images.githubusercontent.com/93113173/167469428-88031696-31fd-4414-898a-7ec4db0ff5b6.jpg)
+![Whisper_Signup](https://user-images.githubusercontent.com/93113173/167469442-86352127-dc98-439e-81d8-ce72db048c20.jpg)
+![Whisper_Top](https://user-images.githubusercontent.com/93113173/167469469-468211a2-2e9a-4509-9516-8321da7a9951.jpg)
+![Whisper_Serach_User](https://user-images.githubusercontent.com/93113173/167469510-ea31453e-5825-46a1-a2a1-d3a64cf32843.jpg)
+![Whisper_Serach_Postedtext](https://user-images.githubusercontent.com/93113173/167469517-d9262231-759d-4bed-8187-7ea2bfee71f1.jpg)
+![Whisper_Posttext](https://user-images.githubusercontent.com/93113173/167469549-30180a4c-8b81-48e0-94cf-abab2c229901.jpg)
+![Whisper_Profile_Top](https://user-images.githubusercontent.com/93113173/167469680-8852139b-0dd9-4735-b355-13f2a5fa5efa.jpg)
+![Whisper_Profile_Select](https://user-images.githubusercontent.com/93113173/167469668-f497b82b-84e1-440e-a266-48808300fd4c.jpg)
+![Whisper_Timeline_Postlist](https://user-images.githubusercontent.com/93113173/167469597-e71e3ad6-0d1e-4500-96c0-3078ad3f5a7f.jpg)
+![Whisper_Timeline_Goodlist](https://user-images.githubusercontent.com/93113173/167469604-24c2295e-2d67-49aa-85b4-9f5505fb1376.jpg)
+![Whisper_Follow](https://user-images.githubusercontent.com/93113173/167469694-97ca1b20-2ec9-45d3-bb82-0f1a2e68b4ee.jpg)
+![Whisper_Follower](https://user-images.githubusercontent.com/93113173/167469704-bb377339-f417-4854-ba09-b0d7080f96df.jpg)
 </details>
 
 
@@ -112,7 +135,8 @@ https://user-images.githubusercontent.com/93113173/163839920-329fb6c4-8458-4163-
     * 揃ったことのない列のリーチを阻止すると1点
     * 揃っていない列を揃えると3点が追加
 
-
+## **確認画像**
+![ThreeLines_Playing](https://user-images.githubusercontent.com/93113173/167469882-54fe2a74-d4c9-4996-8e79-316d7c93af51.png)
 </details>
 
 
